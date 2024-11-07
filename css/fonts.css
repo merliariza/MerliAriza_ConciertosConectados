@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap');
+
+.containertitulo{
+    display:flex;
+    flex-direction: row-reverse;
+    text-align: flex-start;
+    justify-content: flex-start;
+}
+
+.titulo {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30;
+    font-style: normal;
+    line-height: 36;
+    font-size: 40;
+
+  }
+
+@media screen and (max-width:768px){
+    .titulo{
+        color: rgba(118, 28, 188, 1);
+        font-size: 40;
+    }
+}
+
+@media screen and (max-width:576px){
+    .titulo{
+        color: rgba(118, 28, 188, 1);
+        font-size: 36;
+    }
+}
