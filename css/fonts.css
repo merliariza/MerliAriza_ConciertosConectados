@@ -1,24 +1,225 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap');
 
-.containertituloindex{
-    display:block;
 
-  
-}
-.containertituloindex2{
-    display:block;
-
-  
-}
-.tituloindex2 {
+.tituloindex1 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 30;
     font-style: normal;
-    line-height: 36;
-    font-size: 40;
     color: #A626B1;
-  }
+    font-size: 4rem;
+    top: 100px;
+    position: relative;
+
+}
+@media screen and (max-width:900px){
+    .tituloindex1{
+        font-size: 3rem;
+        top: 100px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .tituloindex1{
+        font-size: 2.5rem;
+        top: 80px;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .tituloindex1{
+        font-size: 2rem;
+        top: 50px;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .tituloindex1{
+        font-size: 2rem;
+        top: 20%px;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+.tituloindex11 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #a526b168;
+    font-size: 4rem;
+    top: 12px;
+    position: relative;
+
+}
+@media screen and (max-width:900px){
+    .tituloindex11{
+        font-size: 3rem;
+        top: 12px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .tituloindex11{
+        font-size: 2.5rem;
+        top: 12px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .tituloindex11{
+        font-size: 2rem;
+        top: -20px;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .tituloindex11{
+        font-size: 2rem;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+
+.tituloindex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #A626B1;
+    font-size: 2rem;
+    top: 40px;
+    position: relative;
+
+
+}
+@media screen and (max-width:900px){
+    .tituloindex2{
+        font-size: 2rem;
+        top: 20%;
+
+    }
+}
+
+@media screen and (max-width:768px){
+    .tituloindex2{
+        font-size: 2rem;
+        top: 15%;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:576px){
+    .tituloindex2{
+        font-size: 1.5rem;
+        top: 15%;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:320px){
+    .tituloindex2{
+        font-size: 1.5rem;
+        top: 20%;
+        position: absolute;
+    }
+}
+
+/*
+
+@media (min-width: 1024px) {
+.tituloindex {
+    font-size: 3rem; 
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+.tituloindex {
+    font-size: 2.5rem; 
+}
+}
+
+
+@media (max-width: 767px) {
+.tituloindex {
+    font-size: 2rem;
+}
+}
+*/
+
+.containerinstaindex{
+    display:flex;
+    position: absolute;
+}
+
+.tituloinsta {
+    display: inline-block;
+    flex-direction: column; /* Coloca los títulos uno debajo del otro */
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #1F85DE;
+    font-size: 2rem;
+    position: absolute;
+    
+}
+
+@media screen and (max-width:900px){
+    .tituloinsta{
+        color: #1F85DE;
+        font-size: 2rem;
+        
+    }
+}
+
+@media screen and (max-width:768px){
+    .tituloinsta{
+        color: #1F85DE;
+        font-size: 1.5rem;
+        font-weight: thin;
+    }
+}
+
+@media screen and (max-width:576px){
+    .tituloinsta{
+        color: #1F85DE;
+        font-size: 1.5rem;
+        font-weight: thin;
+    }
+}
+
+
+
+/*.containertituloindex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  
+}
 
 .tituloindex {
     font-family: "Inter", sans-serif;
@@ -80,3 +281,6 @@
         font-size: 10;
     }
 }
+
+*/
+

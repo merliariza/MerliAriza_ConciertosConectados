@@ -94,15 +94,6 @@ img {
     height: 1054;
   }
 
-
-.framecel {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    width: 600px;
-    height: 400px;
-  }
-
 @media screen and (max-width:900px){
     .frame{
         display: flex;
@@ -133,12 +124,12 @@ img {
     }
 }
 
+.insta{
+    display: inline-block;
+}
 
 .containerinstagram{
-    display:flex;
-    flex-direction: row;
-    text-align: flex-start;
-    justify-content: flex-start;
+    display:inline-block;
 }
 
 .instagram {
@@ -150,8 +141,8 @@ img {
 
 @media screen and (max-width:900px){
     .instagram{
-        display: flex;
-        justify-content: left;
+        display: inline-block;
+     
         width: 50;
         height: 50;
     }
@@ -159,19 +150,17 @@ img {
 
 @media screen and (max-width:768px){
     .instagram{
-        display: flex;
-        justify-content: left;
-        width: 50;
-        height: 50;
+        display: inline-block;
+        width: 30;
+        height: 30;
     }
 }
 
 @media screen and (max-width:576px){
     .instagram{
-        display: flex;
-        justify-content: left;
-        width: 50;
-        height: 50;
+        display: inline-block;
+        width: 25;
+        height: 25;
     }
 }
 
@@ -179,4 +168,94 @@ img {
     display: flex;
     justify-content: center;
 
+}
+
+.containerornament {
+    position: relative; 
+    width: 500px; 
+    height: 500px;
+  }
+
+.ornament {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 1328;
+    height: 1054;
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+  }
+
+@media screen and (max-width:900px){
+    .ornament{
+        position: absolute; 
+        top: 0px; 
+        left: 0px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .ornament{
+        position: absolute; 
+        top: 0px; 
+        left: 0px;
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .ornament{
+        position: absolute; 
+        top: 0px; 
+        left: 0px;
+        width: 200px;
+        height: 150px;
+    }
+}
+
+
+.clip {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    top: 30%;
+  }
+
+@media screen and (max-width:900px){
+    .clip{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        width: 200px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .clip{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        width: 180px;
+        height: 280px;
+        top: 15%;
+        left: 35%;
+    }
+}
+
+@media screen and (max-width:576px){
+    .clip{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        width: 150px;
+        height: 200px;
+        top: 90px;
+        left: 30%;
+    }
 }
