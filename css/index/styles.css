@@ -92,6 +92,7 @@ img {
     justify-content: right;
     width: 1328;
     height: 1054;
+   
   }
 
 @media screen and (max-width:900px){
@@ -101,6 +102,7 @@ img {
         justify-content: center;
         width: 1328;
         height: 1054;
+       
     }
 }
 
@@ -126,25 +128,29 @@ img {
 
 .insta{
     display: inline-block;
+    position: relative;
 }
 
 .containerinstagram{
-    display:inline-block;
+    display:flex;
 }
 
 .instagram {
     display: flex;
-    justify-content: right;
-    width: 50;
-    height: 50;
+    align-items: left;
+    position: fixed;
+    left: 13%
+    
   }
 
 @media screen and (max-width:900px){
     .instagram{
         display: inline-block;
-     
         width: 50;
         height: 50;
+        left: 5%;
+        bottom: 30%;
+        z-index: 1
     }
 }
 
@@ -153,6 +159,10 @@ img {
         display: inline-block;
         width: 30;
         height: 30;
+        z-index: 1;
+        position: fixed;
+        top:80%;
+        right: 50%;
     }
 }
 
@@ -161,6 +171,10 @@ img {
         display: inline-block;
         width: 25;
         height: 25;
+        position: fixed;
+        left: 13%;
+        bottom: 3%;
+        z-index: 1
     }
 }
 
@@ -255,7 +269,7 @@ img {
         justify-content: center;
         width: 150px;
         height: 200px;
-        top: 90px;
+        top: 60px;
         left: 30%;
     }
 }

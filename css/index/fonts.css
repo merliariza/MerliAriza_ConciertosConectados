@@ -44,7 +44,8 @@
 @media screen and (max-width:320px){
     .tituloindex1{
         font-size: 2rem;
-        top: 20%px;
+        top: 9%;
+        left: 5%;
         position: relative;
         justify-content: center;
     }
@@ -92,7 +93,9 @@
 @media screen and (max-width:320px){
     .tituloindex11{
         font-size: 2rem;
-        position: relative;
+        top:3%;
+        left: 27%;
+        position: absolute;
         justify-content: center;
     }
 }
@@ -141,7 +144,9 @@
 @media screen and (max-width:320px){
     .tituloindex2{
         font-size: 1.5rem;
-        top: 20%;
+        top: 10%;
+        text-align: left;
+        left: 15%;
         position: absolute;
     }
 }
@@ -154,14 +159,15 @@
 
 .tituloinsta {
     display: inline-block;
-    flex-direction: column; /* Coloca los títulos uno debajo del otro */
-    align-items: center;
-    text-align: center;
+    align-items: left;
+    text-align: left;
     font-family: "Inter", sans-serif;
     font-style: normal;
     color: #1F85DE;
-    font-size: 2rem;
-    position: absolute;
+    font-size: 2rem; 
+    position: fixed;
+    left: 17%;
+
     
 }
 
@@ -169,7 +175,9 @@
     .tituloinsta{
         color: #1F85DE;
         font-size: 2rem;
-        
+        position: fixed;
+        top:66%;
+        left:15%;
     }
 }
 
@@ -177,7 +185,9 @@
     .tituloinsta{
         color: #1F85DE;
         font-size: 1.5rem;
-        font-weight: thin;
+        position: fixed;
+        top:82%;
+        left:35%;
     }
 }
 
@@ -186,6 +196,7 @@
         color: #1F85DE;
         font-size: 1.5rem;
         font-weight: thin;
+        bottom: 20%;
     }
 }
 

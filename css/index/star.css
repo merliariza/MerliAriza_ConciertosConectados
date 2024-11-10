@@ -216,5 +216,6 @@ button:hover .stars {
         padding: 8px 25px;
         font-size: 12px;
         border-radius: 5px;
+        position: absolute;
     }
 }
