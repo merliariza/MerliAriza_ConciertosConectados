@@ -1,0 +1,93 @@
+/* Centrar el contenedor en la pantalla */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para el contenedor */
+  .container {
+    background-color: #ffffff;
+    border-radius: 5%;
+    width: 500px;
+    height: 800px;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: flex-start; /* Alinea en la parte superior */
+    padding-top: 20px; /* Ajusta el espacio superior */
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Responsivo */
+  @media screen and (max-width: 900px) {
+    .container {
+      width: 700px;
+      height: 1000px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 420px;
+      height: 690px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .container {
+      width: 320px;
+      height: 590px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .container {
+      width: 280px;
+      height: 420px;
+    }
+  }
+  
+  /* Estilo de la imagen .concert, centrada horizontalmente y ubicada en la parte superior */
+  .concert {
+    border-radius: 5%;
+    width: 440px;
+    height: 240px;
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    margin: 0 auto; /* Centra horizontalmente */
+  }
+  
+  /* Ajustes para tamaños de pantalla más pequeños */
+  @media screen and (max-width: 900px) {
+    .concert {
+      width: 580px;
+      height: 280px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .concert {
+      width: 308px;
+      height: 159px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .concert {
+      width: 290px;
+      height: 159px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .concert {
+      width: 250px;
+      height: 150px;
+    }
+  }
+  
