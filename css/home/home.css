@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .grid{
@@ -17,7 +19,8 @@
     "main main main main main"
     "main main main main main"
     "footer footer footer footer footer ";
-
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .grid__item{
@@ -48,7 +51,10 @@
     "main main main main main"
     "main main main main main"
     "footer footer footer footer footer ";
+    overflow-x: hidden;
+    overflow-y: hidden;
     }
+    
 }
 
 @media screen and (max-width:576px){
@@ -59,12 +65,20 @@
         "header"
         "main"
         "footer";
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 }
 
 
 .parent {
-    display: flex; 
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 100%;
+    top: 32%;
+    left: 12%;
 }
 
 .item {
@@ -96,6 +110,33 @@
     background: rgb(253, 203, 238);
 }
 
-.item:nth-child(6){
-    background: rgb(255, 203, 172);
+
+
+@media screen and (max-width:900px){
+    .parent {
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        width: 100%;
+        overflow-x: scroll;
+      }}
+
+@media screen and (max-width:768px){
+    .parent {
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        width: 120%;
+        overflow-x: scroll;
+        
+      }}
+
+@media screen and (max-width:576px){
+    .parent {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        
+      }
 }
+

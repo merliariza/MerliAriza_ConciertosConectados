@@ -146,28 +146,6 @@
     }
 }
 
-/*
-
-@media (min-width: 1024px) {
-.tituloindex {
-    font-size: 3rem; 
-}
-}
-
-
-@media (min-width: 768px) and (max-width: 1023px) {
-.tituloindex {
-    font-size: 2.5rem; 
-}
-}
-
-
-@media (max-width: 767px) {
-.tituloindex {
-    font-size: 2rem;
-}
-}
-*/
 
 .containerinstaindex{
     display:flex;
@@ -210,77 +188,4 @@
         font-weight: thin;
     }
 }
-
-
-
-/*.containertituloindex{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
-  
-}
-
-.tituloindex {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 30;
-    font-style: normal;
-    line-height: 36;
-    font-size: 90;
-    color: #A626B1;
-  }
-
-@media screen and (max-width:768px){
-    .tituloindex{
-        color: #A626B1;
-        font-size: 40;
-    }
-}
-
-@media screen and (max-width:576px){
-    .tituloindex{
-        color: #A626B1;
-        font-size: 36;
-    }
-}
-
-.containerinstaindex{
-    display:flex;
-    flex-direction: row-reverse;
-    text-align: flex-start;
-    justify-content: flex-start;
-}
-
-.tituloinsta {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: thin;
-    font-size: 40px;
-    color: #1F85DE;
-  }
-
-@media screen and (max-width:900px){
-    .tituloinsta{
-        color: #1F85DE;
-        font-size: 40;
-    }
-}
-
-@media screen and (max-width:768px){
-    .tituloinsta{
-        color: #1F85DE;
-        font-size: 20;
-    }
-}
-
-@media screen and (max-width:576px){
-    .tituloinsta{
-        color: #1F85DE;
-        font-size: 10;
-    }
-}
-
-*/
 

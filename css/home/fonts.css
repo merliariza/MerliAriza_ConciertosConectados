@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap');
+
+
+.titulohome1 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;   
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 4rem;
+    top: 10%;
+    position: absolute;
+    left: 10%;
+
+}
+@media screen and (max-width:900px){
+    .titulohome1{
+        font-size: 3rem;
+        top: 100px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .titulohome1{
+        font-size: 2.5rem;
+        top: 80px;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .titulohome1{
+        font-size: 2rem;
+        top: 50px;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .titulohome1{
+        font-size: 2rem;
+        top: 20%px;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+
+.titulohome2 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #761CBC;
+    font-size: 4rem;
+    top: 15%;
+    left: 10%;
+    position: absolute;
+
+}
+@media screen and (max-width:900px){
+    .titulohome2{
+        font-size: 3rem;
+        top: 10%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .titulohome2{
+        font-size: 2.5rem;
+        top: 10%;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .titulohome2{
+        font-size: 2rem;
+        top: 10%;
+        position: relative;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .titulohome2{
+        font-size: 2rem;
+        top: 10%;
+        position: relative;
+        justify-content: center;
+    }
+}

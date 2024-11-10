@@ -185,7 +185,7 @@ button:hover .stars {
 
 }
 
-/*@media screen and (max-width:900px){
+@media screen and (max-width:900px){
     button:hover .stars{
         font-size: 40;
         padding: 15px 40px;
@@ -217,4 +217,4 @@ button:hover .stars {
         font-size: 12px;
         border-radius: 5px;
     }
-}*/
+}

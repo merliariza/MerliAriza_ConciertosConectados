@@ -3,33 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="../css/home/home.css">
+    <link rel="stylesheet" href="../css/home/styles.css">
+    <link rel="stylesheet" href="../css/home/notification.css">
+    <link rel="stylesheet" href="../css/home/search.css">
+    <link rel="stylesheet" href="../css/home/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet">
+    
     <title>Home</title>
 </head>
 <body class="grid">
     
     <div class="grid__item header">
-        <section class="titulo">Trending</section>
-        <section class="parent">
-            <div class="item">Music Concert</div>
-            <div class="item">Exhibition</div>
-            <div class="item">Stand up Show</div>
-            <div class="item">Theater</div>
-            <div class="item">Cinema</div>
-            <div class="item">Festival</div>
-        </section>  
+    
+        <section class="menu">
+            <img src="../images/home/menu_icon_153999.webp" alt="imgmenu" class="menu">
+        </section>
+
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="main.css" />
+        </head>
+    
+        <div>
+        <h1 class= "titulohome1">Find</h1>
+        <h1 class= "titulohome2">Trending Events</h1>
+        </div>
+
+        <body>
+            <div class="buscar">
+                <input type="text" placeholder="Buscar" required />
+        
+                <div class="btn">
+                <i class="fas fa-search icon"></i>
+                </div>
+            </div>
+        </body>
+        
+            <section class="parent">
+                <div class="item">Music Concert</div>
+                <div class="item">Exhibition</div>
+                <div class="item">Stand up Show</div>
+                <div class="item">Theater</div>
+                <div class="item">Cinema</div>
+            </section>  
     </div>
 
-    <div class="grid__item main">
+    <button type="button" class="icon-button">
+        <span class="material-icons">notifications</span>
+        <span class="icon-button__badge">2</span>
+    </button>
 
+    <div class="grid__item main">
+        <div class="carousel">
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+          </div>
 
     </div>
 
     <div class="grid__item footer">
 
-
+        <div class="grid__item main">
+            <div class="carousel2">
+                <div class="carousel-item"></div>
+                <div class="carousel-item"></div>
+                <div class="carousel-item"></div>
+                <div class="carousel-item"></div>
+                <div class="carousel-item"></div>
+              </div>
+    
+        </div>
     </div>
 
 </body>
