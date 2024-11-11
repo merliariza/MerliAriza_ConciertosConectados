@@ -1,165 +1,11 @@
-.carousel {
-    display: flex;
-    flex-direction: row;
-    height: 200px;
-    width: 100%;
-    overflow-x: scroll;
-    position: absolute;
-    left: 8%;
-    
-    & > .carousel-item {
-      flex: 1;
-      flex-grow: 3;
-      min-width: 20%;
-      background-color: purple;
-      margin: 0 5px;
-      border-radius: 10px;
-      
-    }
-  }
-  
-@media screen and (max-width:900px){
-    .carousel {
-        display: flex;
-        flex-direction: row;
-        height: 200px;
-        width: 100%;
-        overflow-x: scroll;
-        
-        & > .carousel-item {
-          flex: 1;
-          flex-grow: 3;
-          min-width: 20%;
-          background-color: purple;
-          margin: 0 5px;
-          border-radius: 10px;
-          
-        }
-      }}
 
-@media screen and (max-width:768px){
-    .carousel {
-        display: flex;
-        flex-direction: row;
-        height: 200px;
-        width: 120%;
-        overflow-x: scroll;
-        
-        & > .carousel-item {
-          flex: 1;
-          flex-grow: 3;
-          min-width: 50%;
-          background-color: purple;
-          margin: 0 5px;
-          border-radius: 10px;
-          
-        }
-      }}
-
-@media screen and (max-width:576px){
-    .carousel {
-        display: flex;
-        flex-direction: row;
-        height: 200px;
-        width: 290%;
-        overflow-x: scroll;
-        
-        & > .carousel-item {
-          flex: 1;
-          flex-grow: 3;
-          min-width: 30%;
-          background-color: purple;
-          margin: 0 5px;
-          border-radius: 10px;
-          
-        }
-      }
-}
-
-.carousel2 {
-    display: flex;
-    flex-direction: row;
-    height: 200px;
-    width: 100%;
-    overflow-x: scroll;
-    position: absolute;
-    left: 8%;
-    
-    & > .carousel-item {
-      flex: 1;
-      flex-grow: 3;
-      min-width: 20%;
-      background-color: purple;
-      margin: 0 5px;
-      border-radius: 10px;
-      
-    }
-  }
-  
-@media screen and (max-width:900px){
-    .carousel2 {
-        display: flex;
-        flex-direction: row;
-        height: 200px;
-        width: 100%;
-        overflow-x: scroll;
-        
-        & > .carousel:nth-child(1) {
-          flex: 1;
-          flex-grow: 3;
-          min-width: 20%;
-          background-color: purple;
-          margin: 0 5px;
-          border-radius: 10px;
-          
-        }
-      }}
-
-@media screen and (max-width:768px){
-    .carousel2 {
-        display: flex;
-        flex-direction: row;
-        height: 200px;
-        width: 120%;
-        overflow-x: scroll;
-        
-        & > .carousel-item {
-          flex: 1;
-          flex-grow: 3;
-          min-width: 50%;
-          background-color: purple;
-          margin: 0 5px;
-          border-radius: 10px;
-          
-        }
-      }}
-
-@media screen and (max-width:576px){
-    .carousel2 {
-        display: flex;
-        flex-direction: row;
-        height: 200px;
-        width: 290%;
-        overflow-x: scroll;
-        
-        & > .carousel-item {
-          flex: 1;
-          flex-grow: 3;
-          min-width: 30%;
-          background-color: purple;
-          margin: 0 5px;
-          border-radius: 10px;
-          
-        }
-      }
-}
 
 
 .menu {
     display: flex;
-    align-items: center;
     justify-content: left;
-    position: absolute; 
+    position: fixed; 
+    top: 0%;
     left: 0%;
     width: 150px;
     height: 100px;
@@ -167,15 +13,17 @@
 
 @media screen and (max-width:900px){
     .menu{
-        position: absolute; 
+        position:fixed; 
         width: 100px;
         height: 100px;
+        top: 0%;
+        left: 0%;
     }
 }
 
 @media screen and (max-width:768px){
     .menu{
-        position: absolute; 
+        position:fixed; 
         top: 0px; 
         left: 0px;
         width: 80px;
@@ -185,10 +33,130 @@
 
 @media screen and (max-width:576px){
     .menu{
-        position: absolute; 
+        position: fixed; 
         top: 0px; 
         left: 0px;
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
 }
+
+
+
+.carousel2 {
+  display: flex;
+  flex-direction: row;
+  height: 200px; 
+  width: 85%; 
+  overflow-x: auto; 
+  position: fixed; 
+  top: 75%;
+  margin-left: 5%; 
+  padding-bottom: 10px; 
+
+}
+
+.carousel2 .carousel2-item {
+  flex: 0 0 auto; 
+  width: 15%; 
+  height: 50%; 
+  background-color: rgb(255, 255, 255);
+  margin: 0 10px; 
+  border-radius: 10px; 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.768);
+}
+
+.carousel2 .carousel2-item:nth-child(1) {
+  background: url(../../images/tickets/taylor.webp); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+
+}
+
+.carousel2 .carousel2-item:nth-child(2) {
+  background: url(../../images/tickets/exhibicion.jpeg); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.carousel2 .carousel2-item:nth-child(3) {
+  background: url(../../images/tickets/stand.jpg); 
+  background-size: cover; 
+  background-position: center 75%; 
+  background-repeat: no-repeat;
+}
+
+.carousel2 .carousel2-item:nth-child(4) {
+  background: url(../../images/tickets/teather.jpg); 
+  background-size: cover; 
+  background-position: center 100%; 
+  background-repeat: no-repeat;
+}
+
+.carousel2 .carousel2-item:nth-child(5) {
+  background: url(../../images/tickets/cine.jpg); 
+  background-size: cover; 
+  background-position: center 30%; 
+  background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 900px) {
+  .carousel2 {
+    width: 100%;
+  }
+  
+  .carousel2 .carousel2-item {
+    width: 50%;
+    position: relative;
+    height:200px;
+    
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .carousel2 {
+    width: 100%;
+  }
+  
+  .carousel2 .carousel2-item {
+    width: 40%; 
+    position: relative;
+    height:120px;
+    left: 10%;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .carousel2 {
+    width: 100%;
+  }
+  
+  .carousel2 .carousel2-item {
+    position: relative;
+    top: 10%;
+    left: 0%;
+    height: 70px;
+    width:40%; 
+    
+}}
+
+@media screen and (max-width: 320px) {
+  .carousel2 {
+    width: 100%;
+  }
+  
+  .carousel2 .carousel2-item {
+    position: relative;
+    top: 0%;
+    height: 50px;
+    width: 40%; 
+    
+}}

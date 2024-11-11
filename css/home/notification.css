@@ -1,40 +1,148 @@
 body {
-    margin: 25px;
+  margin: 25px;
+  overflow-y: hidden;
+}
+
+.noti {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+}
+
+body {
+  margin: 25px;
+}
+
+.icon-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  color: #333333;
+  background: #dddddd;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+
+.icon-button:hover {
+  cursor: pointer;
+}
+
+.icon-button:active {
+  background: #cccccc;
+}
+
+.icon-button__badge {
+  position: fixed;
+  top: 4.5%;
+  right: 4.5%;
+  width: 25px;
+  height: 25px;
+  background: red;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+
+.notificaciones-menu {
+  position: absolute;
+  top: 60px;
+  right: 10%;
+  width: 250px;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: none; 
+  flex-direction: column;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto; 
+  z-index: 1;
+}
+
+.notificacion {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.notificacion:last-child {
+  border-bottom: none;
+}
+
+.notificaciones-menu.show {
+  display: flex;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .notificaciones-menu {
+    width: 230px; 
   }
-  
-  .icon-button {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    color: #333333;
-    background: #dddddd;
-    border: none;
-    outline: none;
-    border-radius: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  .notificaciones-menu {
+    width: 200px; 
+    top: 50px; 
   }
-  
-  .icon-button:hover {
-    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .notificaciones-menu {
+    width: 180px; 
+    top: 45px; 
   }
-  
-  .icon-button:active {
-    background: #cccccc;
+}
+
+@media screen and (max-width: 576px) {
+  .notificaciones-menu {
+    width: 160px; 
+    top: 40px; 
   }
-  
-  .icon-button__badge {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    width: 25px;
-    height: 25px;
-    background: red;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+}
+
+@media screen and (max-width: 320px) {
+  .notificaciones-menu {
+    width: 140px; 
+    top: 35px; 
   }
-  
+}
+
+@media screen and (max-width:900px){
+  .noti{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width:768px){
+  .noti{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width:576px){
+  .noti{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width:320px){
+  .noti{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+  }
+}

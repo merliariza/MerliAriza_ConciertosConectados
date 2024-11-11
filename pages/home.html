@@ -13,16 +13,18 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet">
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <title>Home</title>
 </head>
-<body class="grid">
+<body>
     
-    <div class="grid__item header">
-    
+        <a href="../index.html">
         <section class="menu">
             <img src="../images/home/menu_icon_153999.webp" alt="imgmenu" class="menu">
         </section>
+        </a>
 
 
         <link
@@ -40,7 +42,7 @@
         <h1 class= "titulohome2">Trending Events</h1>
         </div>
 
-        <body>
+        <body class="search">
             <div class="buscar">
                 <input type="text" placeholder="Buscar" required />
         
@@ -58,36 +60,48 @@
                 <div class="item">Cinema</div>
             </section>  
     </div>
-
-    <button type="button" class="icon-button">
+<div class="noti">
+    <button type="button" class="icon-button" onclick="toggleMenu()">
         <span class="material-icons">notifications</span>
         <span class="icon-button__badge">2</span>
     </button>
+</div>
+<div class="notificaciones-menu" id="notificaciones-menu">
+    <div class="notificacion">1) Nueva actualización disponible.</div>
+    <div class="notificacion">2) Programación para conciertos de este mes.</div>
+  </div>
+</div>
 
-    <div class="grid__item main">
+        <div>
+            <h1 class="titulohome3">Trending Events</h1>
+            <h1 class="titulohome4">See all</h1>
+        </div>
+
         <div class="carousel">
-            <div class="carousel-item"></div>
-            <div class="carousel-item"></div>
-            <div class="carousel-item"></div>
-            <div class="carousel-item"></div>
-            <div class="carousel-item"></div>
+            <a href=""><div class="carousel-item"></div></a>
+            <a><div class="carousel-item"></div></a>
+            <a><div class="carousel-item"></div></a>
+            <a><div class="carousel-item"></div></a>
+            <a><div class="carousel-item"></div></a>
+            <a><div class="carousel-item"></div></a>
           </div>
 
-    </div>
+   
 
-    <div class="grid__item footer">
+        <div>
+            <h1 class="titulohome5">Events Near You</h1>
+            <h1 class="titulohome6">See all</h1>
+        </div>
 
-        <div class="grid__item main">
             <div class="carousel2">
-                <div class="carousel-item"></div>
-                <div class="carousel-item"></div>
-                <div class="carousel-item"></div>
-                <div class="carousel-item"></div>
-                <div class="carousel-item"></div>
+                <div class="carousel2-item"></div>
+                <div class="carousel2-item"></div>
+                <div class="carousel2-item"></div>
+                <div class="carousel2-item"></div>
+                <div class="carousel2-item"></div>
               </div>
     
         </div>
-    </div>
-
+        <script src="../js/notificaciones.js"></script>
 </body>
 </html>
