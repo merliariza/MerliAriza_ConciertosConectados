@@ -1,3 +1,44 @@
+.carousel {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  overflow-x: scroll;
+  width: auto;  /* Ancho del carrusel */
+  position: fixed;
+  top: 42%;
+  left: 12%;
+}
+
+.carousel-item {
+  flex: 0 0 auto;  /* Cada item tendrá un tamaño fijo */
+  min-width: 30%;  /* El mínimo de ancho por item */
+  margin: 0 5px;  /* Espaciado entre los items */
+  background-color: purple;  /* Color de fondo predeterminado (puedes eliminarlo si lo deseas) */
+  background-size: cover;  /* Asegura que la imagen ocupe el 100% del contenedor */
+  background-position: center;  /* Centra la imagen */
+  background-repeat: no-repeat;  /* No repite la imagen */
+}
+
+.carousel .carousel-item:nth-child(1) {
+  background: url(../../images/tickets/taylor.webp); 
+}
+
+.carousel .carousel-item:nth-child(2) {
+  background: url(../../images/tickets/exhibicion.jpeg); 
+}
+
+.carousel .carousel-item:nth-child(3) {
+  background: url(../../images/tickets/stand.jpg); 
+}
+
+.carousel .carousel-item:nth-child(4) {
+  background: url(../../images/tickets/teather.jpg); 
+}
+
+.carousel .carousel-item:nth-child(5) {
+  background: url(../../images/tickets/cine.jpg); 
+}
+
 
 
 
@@ -41,8 +82,126 @@
     }
 }
 
+.carousel2 {
+  display: flex;
+  flex-direction: row;
+  height: 220px;
+  width: 85%;
+  overflow-x: auto;
+  position: fixed;
+  top: 75%;
+  margin-left: 5%;
+  padding-bottom: 10px;
+}
+.carousel2 .carousel2-item {
+  flex: 0 0 auto;
+  width: 15%;
+  height: 100%;
+  margin: 0 10px; /* Márgenes exteriores entre los ítems del carrusel */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.768);
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px; /* Margen interno entre la imagen y el borde del contenedor */
+}
+
+.carousel2 .carousel2-item .carousel2-image {
+  height: 100%; /* La imagen ocupa todo el espacio disponible */
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px 10px 10px 10px; /* Borde redondeado en la parte superior */
+}
+
+.carousel2 .carousel2-item .carousel2-text {
+  height: 50%;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.6);
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
 
 
+.carousel2 .carousel2-item:nth-child(1) .carousel2-image {
+  background: url(../../images/tickets/taylor.webp);
+}
+
+.carousel2 .carousel2-item:nth-child(2) .carousel2-image {
+  background: url(../../images/tickets/exhibicion.jpeg);
+}
+
+.carousel2 .carousel2-item:nth-child(3) .carousel2-image {
+  background: url(../../images/tickets/stand.jpg);
+}
+
+.carousel2 .carousel2-item:nth-child(4) .carousel2-image {
+  background: url(../../images/tickets/teather.jpg);
+}
+
+.carousel2 .carousel2-item:nth-child(5) .carousel2-image {
+  background: url(../../images/tickets/cine.jpg);
+}
+
+@media screen and (max-width: 1200px) {
+  .carousel2 .carousel2-item {
+    width: 25%; /* Ajustar el ancho al 25% para pantallas medianas */
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .carousel2 {
+    width: 100%; /* Hacer que el carrusel ocupe el 100% del ancho */
+    left: 5%;
+    top: 70%;
+  }
+  
+  .carousel2 .carousel2-item {
+    width: 30%; /* Ajustar el ancho al 50% */
+    height: auto; /* Dejar que el alto se ajuste automáticamente */
+  }
+
+  .carousel2 .carousel2-text {
+    font-size: 1em; /* Reducir tamaño del texto para pantallas medianas */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel2 .carousel2-item {
+    width: 30%; /* Ajustar el ancho al 60% para pantallas más pequeñas */
+  }
+
+  .carousel2 .carousel2-text {
+    font-size: 0.9em; /* Reducir tamaño del texto */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .carousel2 .carousel2-item {
+    width: 42%;
+    height: 60%; /* Ajustar el ancho al 80% para pantallas muy pequeñas */
+  }
+
+  .carousel2 .carousel2-text {
+    font-size: 0.8em; /* Reducir tamaño del texto aún más */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .carousel2 .carousel2-item {
+    width: 40%; /* Ajustar el ancho al 90% para dispositivos móviles más pequeños */
+  }
+
+  .carousel2 .carousel2-text {
+    font-size: 0.7em; /* Reducir aún más el tamaño del texto */
+  }
+}
+/*
 .carousel2 {
   display: flex;
   flex-direction: row;
@@ -159,4 +318,4 @@
     height: 50px;
     width: 40%; 
     
-}}
+}}*/

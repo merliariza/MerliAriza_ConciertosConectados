@@ -1,86 +1,96 @@
+html, body {
+  height: 100%;
+  overflow: hidden; /* Evita el desbordamiento del contenido cuando se abre el teclado */
+}
+/* Estilos generales */
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-
-  }
-  
-  .buscar {
-    position: fixed;
-    left: 12%;
-    top: 24%;
-  }
-  
-  .buscar input {
-    width:55px;
-    height: 55px;
-    padding: 0px 20px;
-    font-size: 18px;
-    color: #222;
-    outline: none;
-    border: 1px solid silver;
-    border-radius: 30px;
-    transition: all 0.6s ease;
-   
-  }
-  
-  .btn {
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    top: 0;
-    right: 0;
-    position: absolute;
-    background: #440088;
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  .buscar:hover input {
-    width: 240px;
-  }
-  
-  .buscar input:focus {
-    width: 240px;
-  }
-
-  @media screen and (max-width:900px){
-    .buscar{
-        position: absolute;
-        top: 20%;
-        left: 15%;
-    }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 
-@media screen and (max-width:768px){
-    .buscar{
-        position: absolute;
-        top: 17%;
-    }
+/* Centrado del contenedor en la pantalla */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  margin: 0;
+  overflow: hidden;
 }
 
-@media screen and (max-width:576px){
-    .buscar{
-        position: absolute;
-        top: 20%;
-        left: 15%;
-    }
+/* Contenedor del campo de búsqueda */
+.search-container {
+  position: absolute; /* Hace que el contenedor sea movible */
+  display: flex;
+  align-items: center;
+  width: 350px;
+  cursor: move; /* El cursor cambia para indicar que es movible */
+  max-width: 100%; /* Asegura que no se salga de la pantalla */
+  z-index: 10;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 22%;
+  left: 10%;
 }
 
-@media screen and (max-width:320px){
-    .buscar{
-        position: absolute;
-        top: 20%;
-    }
+/* Estilo del campo de búsqueda */
+.search-container input[type="search"] {
+  width: 100%; /* Mantiene el campo con el 100% del tamaño del contenedor */
+  font-size: 1rem;
+  padding: 10px 15px 10px 40px; /* Espacio extra a la izquierda para el icono */
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Icono dentro del campo de búsqueda */
+.search-icon {
+  position: absolute;
+  left: 15px; /* Posiciona el icono dentro del campo */
+  font-size: 1.2rem;
+  color: #aaa;
+  pointer-events: none; /* No permitirá hacer clic en el icono */
+}
+
+/* Cambia el color del icono al enfocar */
+.search-container input[type="search"]:focus + .search-icon {
+  color: #440088; /* Cambia el color del icono cuando el input está enfocado */
+}
+
+/* Responsividad */
+@media screen and (max-width: 768px) {
+  .search-container {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .search-container input[type="search"] {
+    padding: 8px 12px 8px 35px;
+  }
+
+  .search-icon {
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-container {
+    width:120%;
+    max-width: 280px;
+    top: 20%;
+  }
+
+  .search-container input[type="search"] {
+    padding: 8px 10px 8px 30px;
+  }
+
+  .search-icon {
+    left: 15px;
+  }
 }

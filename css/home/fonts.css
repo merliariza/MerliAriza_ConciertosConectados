@@ -10,8 +10,8 @@
     font-style: normal;
     color: #000000;
     font-size: 4rem;
-    top: 2%;
-    position: absolute;
+    top: 5%;
+    position: fixed;
     left: 10%;
 
 }
@@ -60,7 +60,7 @@
     font-style: normal;
     color: #761CBC;
     font-size: 4rem;
-    top: 10%;
+    top: 12%;
     left: 10%;
     position: absolute;
 

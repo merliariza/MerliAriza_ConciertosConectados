@@ -55,49 +55,104 @@
 }
 
 
-.tituloticket2 {
+
+.tituloticket3 {
     display: flex;
     flex-wrap: wrap; 
-    justify-content: left;
+    justify-content: left;   
     padding: 20px;
     font-family: "Inter", sans-serif;
     font-style: normal;
-    color: #761CBC;
-    font-size: 4rem;
-    text-align: center;
+    color: #000000;
+    font-size: 2rem;
+    top: 35%;
     position: absolute;
+    left: 10%;
 
 }
 @media screen and (max-width:900px){
-    .tituloticket2{
-        font-size: 3rem;
-        top: 10%;
+    .tituloticket3{
+        font-size: 2rem;
+        top: 30%;
     }
 }
 
 @media screen and (max-width:768px){
-    .tituloticket2{
-        font-size: 2.5rem;
-        top: 10%;
-        position: relative;
+    .tituloticket3{
+        font-size: 1.5rem;
+        top: 35%;
+        position: absolute;
         justify-content: center;
     }
 }
 
 @media screen and (max-width:576px){
-    .tituloticket2{
-        font-size: 2rem;
-        top: 10%;
-        position: relative;
+    .tituloticket3{
+        font-size: 0.875rem;
+        top: 40%;
+        left: 0%;
+        position: absolute;
         justify-content: center;
     }
 }
 
 @media screen and (max-width:320px){
-    .tituloticket2{
-        font-size: 2rem;
-        top: 10%;
-        position: relative;
+    .tituloticket3{
+        font-size: 0.875rem;
+        top: 40%;
+        position: absolute;
         justify-content: center;
     }
 }
+
+
+
+.tituloticket4 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;   
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 1.5rem;
+    top: 36%;
+    position: absolute;
+    right: 10%;
+
+}
+@media screen and (max-width:900px){
+    .tituloticket4{
+        font-size: 1.5rem;
+        top: 30%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .tituloticket4{
+        font-size: 1.2rem;
+        top: 35%;
+        position: absolute;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .tituloticket4{
+        font-size: 0.75rem;
+        top: 40%;
+        position: absolute;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .tituloticket4{
+        font-size: 0.75rem;
+        top: 40%;
+        position: absolute;
+        justify-content: center;
+    }
+}
+
+

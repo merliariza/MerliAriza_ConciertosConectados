@@ -13,7 +13,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet">
-
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <title>Home</title>
@@ -36,21 +36,17 @@
         />
         <link rel="stylesheet" href="main.css" />
         </head>
-    
-        <div>
-        <h1 class= "titulohome1">Find</h1>
-        <h1 class= "titulohome2">Trending Events</h1>
-        </div>
 
-        <body class="search">
-            <div class="buscar">
-                <input type="text" placeholder="Buscar" required />
-        
-                <div class="btn">
-                <i class="fas fa-search icon"></i>
-                </div>
-            </div>
-        </body>
+        <div>
+            <h1 class="titulohome1">Find</h1>
+            <h1 class="titulohome2">Trending Events</h1>
+        </div>
+      
+
+        <div class="search-container">
+            <input type="search" placeholder="Buscar...">
+            <i class="fas fa-search search-icon"></i>
+        </div>
         
             <section class="parent">
                 <div class="item">Music Concert</div>
@@ -78,12 +74,24 @@
         </div>
 
         <div class="carousel">
-            <a href=""><div class="carousel-item"></div></a>
-            <a><div class="carousel-item"></div></a>
-            <a><div class="carousel-item"></div></a>
-            <a><div class="carousel-item"></div></a>
-            <a><div class="carousel-item"></div></a>
-            <a><div class="carousel-item"></div></a>
+            <a href="../pages/detail.html">
+              <div class="carousel-item"></div>
+            </a>
+            <a href="../pages/detail.html">
+              <div class="carousel-item"></div>
+            </a>
+            <a href="../pages/detail.html">
+              <div class="carousel-item"></div>
+            </a>
+            <a href="../pages/detail.html">
+              <div class="carousel-item"></div>
+            </a>
+            <a href="../pages/detail.html">
+              <div class="carousel-item"></div>
+            </a>
+            <a href="../pages/detail.html">
+              <div class="carousel-item"></div>
+            </a>
           </div>
 
    
@@ -93,15 +101,41 @@
             <h1 class="titulohome6">See all</h1>
         </div>
 
-            <div class="carousel2">
-                <div class="carousel2-item"></div>
-                <div class="carousel2-item"></div>
-                <div class="carousel2-item"></div>
-                <div class="carousel2-item"></div>
-                <div class="carousel2-item"></div>
-              </div>
-    
-        </div>
+        <div class="carousel2">
+            <div class="carousel2-item">
+              <img src="../../images/tickets/taylor.webp" class="carousel2-image" alt="Imagen 1">
+              <div class="carousel2-text"><strong>Taylor Swift: The Eras Tour</strong>
+                <br> Mexico city, México
+                <br>July 20,2025</div>
+            </div>
+            <div class="carousel2-item">
+              <img src="../../images/tickets/exhibicion.jpeg" class="carousel2-image" alt="Imagen 2">
+              <div class="carousel2-text"><strong>La noche estrellada</strong>
+                <br>Bucaramanga, Colombia
+                <br>April 18, 2025</div>
+            </div>
+            <div class="carousel2-item">
+              <img src="../../images/tickets/stand.jpg" class="carousel2-image" alt="Imagen 3">
+              <div class="carousel2-text"><strong>Stand up Comedy</strong>
+                <br>Bogotá, Colombia
+                <br>Feb 18, 2025</div>
+            </div>
+            <div class="carousel2-item">
+              <img src="../../images/tickets/teather.jpg" class="carousel2-image" alt="Imagen 4">
+              <div class="carousel2-text"><strong>A Christmas Carol</strong>
+                <br>Bogotá, Colombia
+                <br>Dec 22, 2025</div>
+            </div>
+            <div class="carousel2-item">
+              <img src="../../images/tickets/cine.jpg" class="carousel2-image" alt="Imagen 5">
+              <div class="carousel2-text"><strong>Movie Night</strong>
+                <br>Bucaramanga, Colombia
+                <br>Sept 10, 2025</div>
+            </div>
+          </div>
+          
+
+
         <script src="../js/notificaciones.js"></script>
 </body>
 </html>

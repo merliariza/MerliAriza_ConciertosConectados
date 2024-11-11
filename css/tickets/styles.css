@@ -40,7 +40,7 @@ html, body {
   @media screen and (max-width: 576px) {
     .container {
       width: 320px;
-      height: 590px;
+      height: 550px;
     }
   }
   
@@ -80,7 +80,7 @@ html, body {
   @media screen and (max-width: 576px) {
     .concert {
       width: 290px;
-      height: 159px;
+      height: 250px;
     }
   }
   
@@ -88,6 +88,87 @@ html, body {
     .concert {
       width: 250px;
       height: 150px;
+    }
+  }
+  
+
+  .main {
+    position: absolute;
+    border-radius: 5%;
+    width: 60px;
+    height: 60px;
+    top: 5%;
+    left: 5%;
+  }
+  
+  /* Ajustes para tamaños de pantalla más pequeños */
+  @media screen and (max-width: 900px) {
+    .main {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .main {
+      width: 40px;
+      height: 40px;
+      top: 5%;
+
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .main {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+
+  .more {
+    position: absolute;
+    border-radius: 5%;
+    width: 30px;
+    height: 8px;
+    top: 8%;
+    right: 5%;
+  }
+  
+  /* Ajustes para tamaños de pantalla más pequeños */
+  @media screen and (max-width: 900px) {
+    .more {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .more {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .more {
+      width: 20px;
+      height: 5px;
+      top: 7%;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .more {
+      width: 8px;
+      height: 5px;
     }
   }
   

@@ -12,6 +12,7 @@
     width: 1000%;
     text-align: center;
     white-space: nowrap;
+    justify-content: flex-start;
     padding: 5% 10%;
     box-sizing: border-box;
     top: -18%;
@@ -52,7 +53,7 @@
 @media screen and (max-width: 900px) {
     .parent {
         width: 100%;
-        top: 23%;
+        top: 25%;
         left: 2%;
         position: fixed;
     }
