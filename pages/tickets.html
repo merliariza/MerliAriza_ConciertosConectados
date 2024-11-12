@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../css/tickets/tickets.css">
     <link rel="stylesheet" href="../css/tickets/styles.css">
     <link rel="stylesheet" href="../css/tickets/fonts.css">
+    <script src="../js/JsBarcode.all.min.js"></script>
+    <script type="module">JsBarcode("#barcode", "CLD09738PL");</script>
     <title>Tickets</title>
 </head>
 <body>
@@ -37,7 +39,9 @@
             <h1 class="tituloticket14 content">West B</h1>
 
             <img src="../images/tickets/Group 2.png" alt="imgdivision" class="division">
-
+        <div class="codebar">
+            <svg id="barcode"></svg>
+        </div>
             <h1 class="tituloticket4">Scan your barcode at the entry gate</h1>
         </div>
         

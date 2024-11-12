@@ -231,3 +231,42 @@ html, body {
     }
   }
   
+
+  .codebar {
+    position: absolute;
+    border-radius: 5%;
+    top: 80%;
+    width: 505px;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .codebar {
+      width: 900px;
+      height: 500px;
+      top: 72%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .codebar {
+
+      top: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .codebar {
+      width: 300px;
+      height: 500px;
+      top: 75%;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .codebar {
+      width: 200px;
+      height: auto;
+      top: 75%;
+    }
+  }
