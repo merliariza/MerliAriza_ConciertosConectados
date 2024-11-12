@@ -1,43 +1,32 @@
 .carousel {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  position: absolute;
+  width: 80%;
+  overflow: hidden;
+
+}
+
+.carousel1 {
+  display: flex;
   flex-direction: row;
-  height: 200px;
+  height: 150px;
+  width: 100%;
   overflow-x: scroll;
-  width: auto;  
-  position: fixed;
-  top: 42%;
-  left: 12%;
+
 }
 
-.carousel-item {
-  flex: 0 0 auto; 
-  min-width: 30%;  
-  margin: 0 5px; 
-  background-color: purple; 
-  background-size: cover;  
-  background-position: center;  
-  background-repeat: no-repeat;  
-}
+  
+.carousel1-item {
+    flex: 1;
+    flex-grow: 1;
+    min-width: 50%;
+    background-color: purple;
+    margin: 0 5px;
+  }
 
-.carousel .carousel-item:nth-child(1) {
-  background: url(../../images/tickets/taylor.webp); 
-}
-
-.carousel .carousel-item:nth-child(2) {
-  background: url(../../images/tickets/exhibicion.jpeg); 
-}
-
-.carousel .carousel-item:nth-child(3) {
-  background: url(../../images/tickets/stand.jpg); 
-}
-
-.carousel .carousel-item:nth-child(4) {
-  background: url(../../images/tickets/teather.jpg); 
-}
-
-.carousel .carousel-item:nth-child(5) {
-  background: url(../../images/tickets/cine.jpg); 
-}
 
 
 

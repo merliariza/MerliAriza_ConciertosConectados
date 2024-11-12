@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.parent {
+.navegation-buttons {
     display: flex;
     position: relative;
     flex-direction: row;
@@ -18,7 +18,8 @@
     top: -18%;
 }
 
-.item {
+.navegation-buttons__button {
+    display: flex;
     flex-shrink: 0;
     width: 150px;
     height: 30px;
@@ -28,37 +29,60 @@
     background-color: #ddd;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
 }
 
-.item:nth-child(1) {
+.navegation-buttons__button:nth-child(1) {
     background: rgb(211, 199, 255);
 }
 
-.item:nth-child(2) {
+.navegation-buttons__button:nth-child(2) {
     background: rgb(255, 241, 201);
 }
 
-.item:nth-child(3) {
+.navegation-buttons__button:nth-child(3) {
     background: rgb(250, 206, 206);
 }
 
-.item:nth-child(4) {
+.navegation-buttons__button:nth-child(4) {
     background: rgb(195, 241, 205);
 }
 
-.item:nth-child(5) {
+.navegation-buttons__button:nth-child(5) {
     background: rgb(253, 203, 238);
 }
 
+.navegation-buttons__button:nth-child(1):hover {
+    background: rgb(170, 147, 255);
+}
+
+.navegation-buttons__button:nth-child(2):hover {
+    background: rgb(255, 224, 140);
+}
+
+.navegation-buttons__button:nth-child(3):hover {
+    background: rgb(255, 143, 143);
+}
+
+.navegation-buttons__button:nth-child(4):hover {
+    background: rgb(130, 255, 157);
+}
+
+.navegation-buttons__button:nth-child(5):hover {
+    background: rgb(255, 154, 225);
+}
+
 @media screen and (max-width: 900px) {
-    .parent {
+    .navegation-buttons {
         width: 100%;
         top: 25%;
         left: 2%;
         position: fixed;
     }
 
-    .item {
+    .navegation-buttons__button {
         width: 180px;
         margin-left: 8px;
         margin-right: 8px;
@@ -66,12 +90,12 @@
 }
 
 @media screen and (max-width: 768px) {
-    .parent {
+    .navegation-buttons {
         width: 100%;
         top: 20%;
     }
 
-    .item {
+    .navegation-buttons__button {
         width: 150px;
         margin-left: 5px;
         margin-right: 5px;
@@ -79,7 +103,7 @@
 }
 
 @media screen and (max-width: 576px) {
-    .parent {
+    .navegation-buttons {
         width: 100%;
         padding: 20% 10%;
         font-size: 0.78rem;
@@ -88,7 +112,7 @@
         left: 0%;
     }
 
-    .item {
+    .navegation-buttons__button {
         width: 100px;
         margin-left: 5px;
         margin-right: 5px;
