@@ -6,22 +6,61 @@
     <link rel="stylesheet" href="../css/detail/detail.css">
     <link rel="stylesheet" href="../css/detail/styles.css">
     <link rel="stylesheet" href="../css/detail/fonts.css">
+    <link rel="stylesheet" href="../css/detail/main.css">
     <title>Detail</title>
 </head>
 <body class="grid">
     
+    
     <div class="grid__item header">
-        <img src="../images/tickets/Rectangle 4105.png" class="imageconcierto" alt="imagenconcierto">
+        <a href="../pages/home.html">
+            <img src="../images/tickets/Frame 34567.png" alt="imgback" class="main">
+        </a>
+        
+        <img src="../images/tickets/puntos.png" alt="imgmore" class="more">
+        <img src="../images/tickets/concierto.png" class="imageconcert" alt="imagenconcierto">
+        
+        <div class="concert-description">
+            <div class="concert-text">Coldplay: Music of the Spheres
+            <br>Gelora Bung Karno Stadium, Jakarta
+            <br>November 15 2023</div>
+          </div>
+
     </div>
 
     <div class="grid__item main">
-       
+        <h1>Description</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi assumenda tempora id quibusdam aliquid quaerat soluta expedita, impedit nobis, harum fuga commodi repudiandae, quia doloremque veniam sint architecto corrupti explicabo!</p>
+        <h1>Venue & Location</h1>
+        <img src="../images/detail/Mapa.png" alt="imgmapa" class="mapa">
     </div>
 
     <div class="grid__item footer">
+        <p>Start from</p>
+        <h1>IDR1.100.000</h1>
 
+
+        <main>
+            
+            <button id="open_dialog">Buy Ticket</button>
+          
+            <dialog aria-labelledby="dialog_title" aria-describedby="dialog_description">
+              <h2 id="dialog_title" class="h2">Desea comprar el ticket?</h2>
+              <p id="dialog_description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum atque quas corrupti doloribus officia dolorum vitae repudiandae sequi at necessitatibus repellendus, nam ipsa alias laudantium consectetur recusandae odio repellat exercitationem!
+              </p>
+              <div class="flex flex-space-between">
+                <button id="close_dialog">Cancelar</button>
+                <button id="confirm_dialog" class="cta">Confirmar</button>
+              </div>
+            </dialog>
+        </main>
+          
+          
+          
+        
     </div>
 
-
+    <script src="../js/main.js"></script>
 </body>
 </html>

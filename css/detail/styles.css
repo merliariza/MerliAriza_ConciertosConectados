@@ -1,0 +1,220 @@
+.imageconcert {
+    position: absolute;
+    top: -15%;
+    width: 100%;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .imageconcert {
+      width: 600px;
+      height: 280px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .imageconcert {
+      width: 380px;
+      height: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .imageconcert {
+      width: 290px;
+      height: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .imageconcert {
+      width: 220px;
+      height: 120px;
+    }
+  }
+
+
+
+  .main {
+    position: absolute;
+    border-radius: 5%;
+    width: 60px;
+    height: 60px;
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+    .main {
+      width: 50px;
+      height: 50px;
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main {
+      width: 40px;
+      height: 40px;
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .main {
+      width: 40px;
+      height: 40px;
+      top: 5%;
+      z-index: 1;
+
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .main {
+      width: 30px;
+      height: 30px;
+      z-index: 1;
+    }
+  }
+  
+
+  .more {
+    position: absolute;
+    border-radius: 5%;
+    width: 30px;
+    height: 5px;
+    top: 8%;
+    right: 5%;
+    z-index: 1;
+  }
+  
+
+  @media screen and (max-width: 900px) {
+    .more {
+      width: 30px;
+      height: 8px;
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .more {
+      width: 30px;
+      height: 10px;
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .more {
+      width: 20px;
+      height: 5px;
+      top: 7%;
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .more {
+      width: 20px;
+      height: 5px;
+      z-index: 1;
+    }
+  }
+
+  .concert-description {
+    flex: 0 0 auto;
+    width: 70%;
+    height: 20%;
+    margin: 0 10px; 
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 8px rgba(128, 128, 128, 0.768);
+    display: flex;
+    position: absolute;
+    top:50%;
+    z-index: 1;
+    padding: 10px; 
+  }
+
+  @media screen and (max-width: 900px) {
+    .concert-description {
+      width: 30px;
+      height: 8px;
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .concert-description {
+
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .concert-description {
+
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .concert-description {
+      width: 20px;
+      height: 5px;
+      z-index: 1;
+    }
+  }
+
+  .concert-text {
+    height: 50%;
+    text-align: right;
+    white-space: nowrap;
+    background: rgba(255, 255, 255, 0.6);
+    color: rgb(0, 0, 0);
+    font-size: 0.70rem;
+    top: 10%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-weight: bold;
+    z-index: 1;
+    left: 10%;
+  }
+
+  @media screen and (max-width: 900px) {
+    .concert-text {
+      width: 30px;
+      height: 8px;
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .concert-text {
+      width: 30px;
+      height: 10px;
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .concert-text {
+      width: 20px;
+      height: 5px;
+      top: 7%;
+      z-index: 1;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .concert-text {
+      width: 20px;
+      height: 5px;
+      z-index: 1;
+    }
+  }
