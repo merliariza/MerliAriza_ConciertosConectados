@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&display=swap');
 
-
-.tituloticket1 {
+.titulo {
     display: flex;
     flex-wrap: wrap; 
     justify-content: left;   
@@ -9,150 +8,682 @@
     font-family: "Inter", sans-serif;
     font-style: normal;
     color: #000000;
-    font-size: 4rem;
-    top: 10%;
+    font-size: 1.2rem;
     position: absolute;
     text-align: center;
-    left: 10%;
-
 }
+
+
 @media screen and (max-width:900px){
-    .tituloticket1{
-        font-size: 3rem;
-        top: 100px;
+    .titulo{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #000000;
+        font-size: 1.2rem;
+        position: absolute;
         text-align: center;
     }
 }
 
 @media screen and (max-width:768px){
-    .tituloticket1{
-        font-size: 2.5rem;
-        top: 80px;
-        position: relative;
-        justify-content: center;
+    .titulo{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #000000;
+        font-size: 1.125rem;
+        position: absolute;
         text-align: center;
     }
 }
 
 @media screen and (max-width:576px){
-    .tituloticket1{
-        font-size: 2rem;
-        top: 50px;
-        position: relative;
-        justify-content: center;
+    .titulo{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #000000;
+        font-size: 1.125rem;
+        position: absolute;
         text-align: center;
     }
 }
 
 @media screen and (max-width:320px){
-    .tituloticket1{
-        font-size: 2rem;
-        top: 20%px;
-        position: relative;
-        justify-content: center;
+    .titulo{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #000000;
+        font-size: 1.125rem;
+        position: absolute;
         text-align: center;
     }
 }
 
 
+.sub {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;   
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #5F5A5A;
+    font-size: 0.8rem;
+    position: absolute;
+    text-align: center;
+}
+
+
+@media screen and (max-width:900px){
+    .sub{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #5F5A5A;
+        font-size: 0.8rem;
+        position: absolute;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .sub{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #5F5A5A;
+        font-size: 0.75rem;
+        position: absolute;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .sub{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #5F5A5A;
+        font-size: 0.75rem;
+        position: absolute;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .sub{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #5F5A5A;
+        font-size: 0.75rem;
+        position: absolute;
+        text-align: center;
+    }
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;   
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 1rem;
+    position: absolute;
+    text-align: center;
+}
+
+@media screen and (max-width:900px){
+    .content{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #000000;
+        font-size: 1rem;
+        position: absolute;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .content{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #000000;
+        font-size: 0.875rem;
+        position: absolute;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .content{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 20px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #000000;
+        font-size: 0.875rem;
+        position: absolute;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .content{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: left;   
+        padding: 0.875rem;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: #000000;
+        font-size: 0.875rem;
+        position: absolute;
+        text-align: center;
+    }
+}
+
+
+.tituloticket1 {
+    top: 32%;
+    left: 5%;
+
+}
+@media screen and (max-width:900px){
+    .tituloticket1{
+        top: 10%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .tituloticket1{
+        top: 32%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:576px){
+    .tituloticket1{
+        top: 32%;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .tituloticket1{
+        top: 10%;
+        left: 10%;
+    }
+}
+
+
+
+.tituloticket2 {
+    top: 37%;
+    left: 4%;
+
+}
+@media screen and (max-width:900px){
+    .tituloticket2{
+        top: 37%;
+        left: 4%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .tituloticket2{
+        top: 37%;
+        left: 4%;
+    }
+}
+
+@media screen and (max-width:576px){
+    .tituloticket2{
+        top: 37%;
+        left: 4%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .tituloticket2{
+        top: 37%;
+        left: 4%;
+    }
+}
 
 .tituloticket3 {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: left;   
-    padding: 20px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    color: #000000;
-    font-size: 2rem;
-    top: 35%;
-    position: absolute;
-    left: 10%;
+    top: 45%;
+    left: 4%;
 
 }
 @media screen and (max-width:900px){
     .tituloticket3{
-        font-size: 2rem;
-        top: 30%;
+        top: 45%;
+        left: 4%;
     }
 }
 
 @media screen and (max-width:768px){
     .tituloticket3{
-        font-size: 1.5rem;
-        top: 35%;
-        position: absolute;
-        justify-content: center;
+        top: 45%;
+        left: 4%;
     }
 }
 
 @media screen and (max-width:576px){
     .tituloticket3{
-        font-size: 0.875rem;
-        top: 40%;
-        left: 0%;
-        position: absolute;
-        justify-content: center;
+        top: 45%;
+        left: 4%;
     }
 }
 
 @media screen and (max-width:320px){
-    .tituloticket3{
-        font-size: 0.875rem;
-        top: 40%;
-        position: absolute;
-        justify-content: center;
+    .tituloticket4{
+        top: 45%;
+        left: 4%;
     }
 }
-
-
 
 .tituloticket4 {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: left;   
-    padding: 20px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    color: #000000;
-    font-size: 1.5rem;
-    top: 36%;
-    position: absolute;
-    right: 10%;
-
-}
-@media screen and (max-width:900px){
-    .tituloticket4{
-        font-size: 1.5rem;
-        top: 30%;
+    top: 47%;
+    left: 4%;
+    
     }
-}
-
-@media screen and (max-width:768px){
-    .tituloticket4{
-        font-size: 1.2rem;
-        top: 35%;
-        position: absolute;
-        justify-content: center;
+    @media screen and (max-width:900px){
+        .tituloticket4{
+            top: 47%;
+            left: 4%;
+        }
     }
-}
-
-@media screen and (max-width:576px){
-    .tituloticket4{
-        font-size: 0.75rem;
-        top: 40%;
-        position: absolute;
-        justify-content: center;
+    
+    @media screen and (max-width:768px){
+        .tituloticket4{
+            top: 47%;
+            left: 4%;
+        }
     }
-}
-
-@media screen and (max-width:320px){
-    .tituloticket4{
-        font-size: 0.75rem;
-        top: 40%;
-        position: absolute;
-        justify-content: center;
+    
+    @media screen and (max-width:576px){
+        .tituloticket4{
+            top: 47%;
+            left: 4%;
+        }
     }
-}
+    
+    @media screen and (max-width:320px){
+        .tituloticket4{
+            top: 47%;
+            left: 4%;
+        }
+    }
 
+.tituloticket5 {
+    top: 45%;
+    left: 57%;
+    
+    }
+    @media screen and (max-width:900px){
+        .tituloticket5{
+            top: 45%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        .tituloticket5{
+            top: 45%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .tituloticket5{
+            top: 45%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:320px){
+        .tituloticket5{
+            top: 45%;
+            left: 57%;
+        }
+    }
 
+.tituloticket6 {
+    top: 47%;
+    left: 57%;
+    
+    }
+    @media screen and (max-width:900px){
+        .tituloticket6{
+            top: 47%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        .tituloticket6{
+            top: 47%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .tituloticket6{
+            top: 47%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:320px){
+        .tituloticket6{
+            top: 47%;
+            left: 57%;
+        }
+    }
+
+.tituloticket7 {
+    top: 55%;
+    left: 4%;
+    
+    }
+    @media screen and (max-width:900px){
+        .tituloticket7{
+            top: 55%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        .tituloticket7{
+            top: 55%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .tituloticket7{
+            top: 55%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:320px){
+        .tituloticket7{
+            top: 55%;
+            left: 4%;
+        }
+    }
+
+.tituloticket8 {
+    top: 57%;
+    left: 4%;
+    
+    }
+    @media screen and (max-width:900px){
+        .tituloticket8{
+            top: 57%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        .tituloticket8{
+            top: 57%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .tituloticket8{
+            top: 57%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:320px){
+        .tituloticket8{
+            top: 57%;
+            left: 4%;
+        }
+    }
+
+.tituloticket9 {
+    top: 55%;
+    left: 57%;
+    
+    }
+    @media screen and (max-width:900px){
+        .tituloticket9{
+            top: 55%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        .tituloticket9{
+            top: 55%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .tituloticket9{
+            top: 55%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:320px){
+        .tituloticket9{
+            top: 55%;
+            left: 57%;
+        }
+    }
+
+.tituloticket10 {
+    top: 57%;
+    left: 57%;
+    
+    }
+    @media screen and (max-width:900px){
+        .tituloticket10{
+            top: 57%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        .tituloticket10{
+            top: 57%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .tituloticket10{
+            top: 57%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:320px){
+        .tituloticket10{
+            top: 57%;
+            left: 57%;
+        }
+    }
+
+.tituloticket11 {
+    top: 65%;
+    left: 4%;
+    
+    }
+    @media screen and (max-width:900px){
+        .tituloticket11{
+            top: 65%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        .tituloticket11{
+            top: 65%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .tituloticket11{
+            top: 65%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:320px){
+        .tituloticket11{
+            top: 65%;
+            left: 4%;
+        }
+    }
+
+.tituloticket12 {
+    top: 67%;
+    left: 4%;
+    
+    }
+    @media screen and (max-width:900px){
+        .tituloticket12{
+            top: 67%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        .tituloticket12{
+            top: 67%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .tituloticket12{
+            top: 67%;
+            left: 4%;
+        }
+    }
+    
+    @media screen and (max-width:320px){
+        .tituloticket12{
+            top: 67%;
+            left: 4%;
+        }
+    }
+
+.tituloticket13 {
+        top: 65%;
+        left: 57%;
+    
+    }
+    @media screen and (max-width:900px){
+        .tituloticket13{
+            top: 65%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        .tituloticket13{
+            top: 65%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .tituloticket13{
+            top: 65%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:320px){
+        .tituloticket13{
+            top: 65%;
+            left: 57%;
+        }
+    }
+
+.tituloticket14 {
+        top: 67%;
+        left: 57%;
+    
+    }
+    @media screen and (max-width:900px){
+        .tituloticket14{
+            top: 67%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        .tituloticket14{
+            top: 67%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .tituloticket14{
+            top: 67%;
+            left: 57%;
+        }
+    }
+    
+    @media screen and (max-width:320px){
+        .tituloticket14{
+            top: 67%;
+            left: 57%;
+        }
+    }
