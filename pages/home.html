@@ -14,36 +14,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Home</title>
 </head>
 
 <body>
-
+  <!--Imagen de redireccionamiento al cover o página principal-->
   <a href="../index.html">
     <section class="menu">
       <img src="../images/home/menu_icon_153999.webp" alt="imgmenu" class="menu">
     </section>
   </a>
 
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="main.css" />
-  </head>
-
+  <!--Títulos de la página Home-->
   <div>
     <h1 class="titulohome1">Find</h1>
     <h1 class="titulohome2">Trending Events</h1>
   </div>
-
+  <!--Contenedor del buscador-->
 
   <div class="search-container">
     <input type="search" placeholder="Buscar...">
     <i class="fas fa-search search-icon"></i>
   </div>
-
+  <!--Secciòn de botones de navegación, con funcionalidad de carousel para dispositivos móviles-->
   <section class="navegation-buttons">
     <a href="#" class="navegation-buttons__button">Music Concert</a>
     <a href="#" class="navegation-buttons__button">Exhibition</a>
@@ -51,7 +47,8 @@
     <a href="#" class="navegation-buttons__button">Theater</a>
     <a href="#" class="navegation-buttons__button">Cinema</a>
   </section>
-  </div>
+  
+  <!--Clase que contiene el estilo visual del botón de notificaciones y la visualización desplegable de las mismas-->
   <div class="noti">
     <button type="button" class="icon-button" onclick="toggleMenu()">
       <span class="material-icons">notifications</span>
@@ -62,19 +59,21 @@
     <div class="notificacion">1) Nueva actualización disponible.</div>
     <div class="notificacion">2) Programación para conciertos de este mes.</div>
   </div>
-  </div>
 
-  <div>
-    <h1 class="titulohome3">Trending Events</h1>
-    <h1 class="titulohome4">See all</h1>
-  </div>
 
-  <div class="carousel">
+  <!--Contenedor del primer carousel-->
+  <!--<div class="carousel">
     <div class="carousel1">
-      <a href="../pages/detail.html" class="carousel1-item">
-      </a>
-      <a href="../pages/detail.html" class="carousel1-item">
-      </a>
+      <div  class="carousel1-item">
+        <div class="transparent">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eligendi porro alias soluta explicabo dolorum nemo, incidunt fugit, quam natus vel blanditiis possimus aperiam eius, provident sapiente adipisci commodi dolorem.</p></div>
+        <a href="../pages/detail.html"><img src="../../images/tickets/Rectangle\ 4105.png" alt=""></a>
+      </div>
+      <div href="../pages/detail.html" class="carousel1-item">
+        <div class="transparent">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum recusandae sunt quibusdam optio nostrum rerum perspiciatis impedit dolores provident? Sequi atque illo, itaque pariatur tempore in quos corporis iste deleniti!</p>
+        </div>
+      </div>
       <a href="../pages/detail.html" class="carousel1-item">
       </a>
       <a href="../pages/detail.html" class="carousel1-item">
@@ -84,13 +83,61 @@
     </div>
   </div>
 
+  </div>-->
+
+      <!--Clase que contiene Subtitulos del primer carousel-->
+      
+  <div id="trending-events">
+  
+    <div class="carousel">
+      <div class="carousel-item">
+        <div class="info-event">
+          <h3>Camilo: Nuestro lugar feliz</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
+          <p><i class="fas fa-calendar-alt"></i> December 6 2024</p>
+          <p class="price">IDR800.000</p>
+        </div>
+        <a href="../pages/detail.html"><img src="../images/tickets/coldplay-tour.jpg" alt="" /></a>
+      </div>
+      <div class="carousel-item">
+        <div class="info-event black">
+          <h3>Melendi</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
+          <p><i class="fas fa-calendar-alt"></i> November 8 2024</p>
+          <p class="price">IDR800.000</p>
+        </div>
+        <a href="../pages/detail.html"><img src="../images/tickets/exhibicion.jpeg" alt="" /></a>
+      </div>
+      <div class="carousel-item">
+        <div class="info-event">
+          <h3>Panorama Reik</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
+          <p><i class="fas fa-calendar-alt"></i>2025</p>
+          <p class="price">IDR800.000</p>
+        </div>
+        <img src="../images/tickets/stand.jpg" alt="" />
+      </div>
+
+      <div class="carousel-item">
+        <div class="info-event">
+          <h3>Movie Night</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Bogota, Colombia</p>
+          <p><i class="fas fa-calendar-alt"></i>May 152025</p>
+          <p class="price">IDR800.000</p>
+        </div>
+        <img src="../images/tickets/cine.jpg" alt="" />
+      </div>
+    </div>
+
+
   </div>
 
+  <!--Subtitulos del segundo carousel-->
   <div>
     <h1 class="titulohome5">Events Near You</h1>
     <h1 class="titulohome6">See all</h1>
   </div>
-
+  <!--Contenedor del segundo carousel-->
   <div class="carousel2">
     <div class="carousel2-item">
       <img src="../../images/tickets/taylor.webp" class="carousel2-image" alt="Imagen 1">
@@ -129,7 +176,7 @@
     </div>
   </div>
 
-
+  <!--Llamada a notificaciones.js para establecer la funcionalidad desplegable-->
 
   <script src="../js/notificaciones.js"></script>
 </body>

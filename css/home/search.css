@@ -24,12 +24,12 @@ body {
 
 /* Contenedor del campo de búsqueda */
 .search-container {
-  position: absolute; /* Hace que el contenedor sea movible */
+  position: absolute; 
   display: flex;
   align-items: center;
   width: 350px;
-  cursor: move; /* El cursor cambia para indicar que es movible */
-  max-width: 100%; /* Asegura que no se salga de la pantalla */
+  cursor: move; 
+  max-width: 100%; 
   z-index: 10;
   padding: 10px;
   box-sizing: border-box;
@@ -39,9 +39,9 @@ body {
 
 /* Estilo del campo de búsqueda */
 .search-container input[type="search"] {
-  width: 100%; /* Mantiene el campo con el 100% del tamaño del contenedor */
+  width: 100%; 
   font-size: 1rem;
-  padding: 10px 15px 10px 40px; /* Espacio extra a la izquierda para el icono */
+  padding: 10px 15px 10px 40px; 
   border: 1px solid #ccc;
   border-radius: 25px;
   outline: none;
@@ -52,18 +52,18 @@ body {
 /* Icono dentro del campo de búsqueda */
 .search-icon {
   position: absolute;
-  left: 15px; /* Posiciona el icono dentro del campo */
+  left: 15px; 
   font-size: 1.2rem;
   color: #aaa;
-  pointer-events: none; /* No permitirá hacer clic en el icono */
+  pointer-events: none; 
 }
 
-/* Cambia el color del icono al enfocar */
+
 .search-container input[type="search"]:focus + .search-icon {
-  color: #440088; /* Cambia el color del icono cuando el input está enfocado */
+  color: #440088; /* Cambia el color del icono cuando se activa el input */
 }
 
-/* Responsividad */
+/* Responsivo para varios dispositivos*/
 @media screen and (max-width: 768px) {
   .search-container {
     width: 80%;

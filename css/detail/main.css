@@ -112,72 +112,72 @@ p {
   margin: 8px auto;
 }
 
-/* Media Queries */
+/* Media Queries del diseño responsivo para el botón*/
 
 @media screen and (max-width: 900px) {
   main {
-    padding: 1rem; /* Ajuste del padding en pantallas más pequeñas */
+    padding: 1rem; 
   }
 
   button {
     width: calc(40px * var(--ratio));
-    top: 90%; /* Ajuste de tamaño para pantallas medianas */
+    top: 90%; 
   }
 }
 
 @media screen and (max-width: 768px) {
   main {
-    padding: 1rem; /* Reducir padding para dispositivos más pequeños */
+    padding: 1rem; 
   }
 
   button {
     width: calc(36px * var(--ratio));
-    top:90% /* Ajuste de tamaño en pantallas pequeñas */
+    top:90% 
   }
 
   dialog {
-    padding: 1.2rem; /* Ajuste en el padding del dialog */
-    max-width: 90vw; /* Ajuste el tamaño máximo */
+    padding: 1.2rem; 
+    max-width: 90vw; 
   }
 }
 
 @media screen and (max-width: 576px) {
   main {
-    width: 100%; /* Ajuste completo para pantallas pequeñas */
-    padding: 0 1rem; /* Reduce el espacio horizontal */
+    width: 100%; 
+    padding: 0 1rem; 
   }
 
   button {
     width: calc(36px * var(--ratio));
     top:92%;
-    left: 60% /* Tamaño más pequeño del botón */
+    left: 60% 
   }
 
   dialog {
     padding: 1rem;
-    max-width: 90%; /* Ajuste del tamaño máximo en pantallas más pequeñas */
+    max-width: 90%; 
   }
 
   .flex.flex-space-between {
     flex-direction: column;
-    align-items: center; /* Ajusta los elementos al centro en pantallas muy pequeñas */
+    align-items: center; 
     top:70%
   }
 }
 
 @media screen and (max-width: 320px) {
   main {
-    width: 100%; /* Pantallas ultra pequeñas */
+    width: 100%; 
     padding: 0.5rem;
   }
 
   button {
     width: calc(30px * var(--ratio)); 
-    font-size: 0.9rem;/* Botón aún más pequeño */
+    font-size: 0.9rem;
   }
 
   dialog {
     padding: 0.5rem;
-    max-width: 85%; /* Ajuste del tamaño máximo en pantallas de 320px */
+    max-width: 85%; 
   }
 }
