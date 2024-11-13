@@ -1,8 +1,9 @@
-/*.carousel {
+.carousel {
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: center;
+  position: absolute;
   width: 80%;
   height: 250px;
   top: 38%;
@@ -16,7 +17,6 @@
   width: 100%;
   overflow-x: auto;
   top: 30%;
-  
 }
 
 .carousel1-item {
@@ -31,15 +31,42 @@
   background-size: cover;          
   background-position: center;       
   background-repeat: no-repeat;      
-  position: relative;
 }
 
-.carrusel1-item .transparent{
-  background-color: aqua;
-  width: 500px;
-  height: 5vh;
-  position: absolute;
-}*//*
+.carousel1-container {
+  flex: 1;
+  flex-grow: 1;
+  min-width: 25%;
+  background-color: rgba(114, 114, 114, 0.578);
+  border-radius: 15px;
+  margin: 0 5px;
+  height: 100%; 
+  width: 100%;
+  background-size: cover;          
+  background-position: center;       
+  background-repeat: no-repeat;      
+}
+
+
+.carousel1 .carousel1-item:nth-child(1) {
+  background-image: url(../../images/tickets/Rectangle\ 4105.png);
+}
+
+.carousel1 .carousel1-item:nth-child(2) {
+  background-image: url(../../images/tickets/exhibicion.jpeg);
+}
+
+.carousel1 .carousel1-item:nth-child(3) {
+  background-image: url(../../images/tickets/stand.jpg);
+}
+
+.carousel1 .carousel1-item:nth-child(4) {
+  background-image: url(../../images/tickets/teather.jpg);
+}
+
+.carousel1 .carousel1-item:nth-child(5) {
+  background-image: url(../../images/tickets/cine.jpg);
+}
   
   @media screen and (max-width: 900px) {
     .carousel1 {
@@ -93,56 +120,8 @@
       height: 90px;
     }
   
-  }*/
-
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
   }
-  body {
-    margin: 3vh;
-    background-color: #fdf7f7a6;
-  }
-
-  #trending-events {
-    margin-left: -700% !important;
-    background-color: transparent;
-  }
-  .carousel {
-    display: flex;
-    flex-direction: row;
-    overflow-x: scroll;}
   
-    .carousel-item {
-      flex: 1;
-      flex-grow: 1;
-      overflow: auto;
-      height: 20vh;
-      object-fit: cover;
-      margin: 0 4px;
-      position: relative;
-    }
-  
-  .carousel img {
-    height: 100%; 
-    width: 100%;
-   
-    margin-right: 2vh;
-  }
-  .info-event {
-    backdrop-filter: blur(15px);
-    position: absolute;
-    bottom: 10vh;
-    margin-left: 2vh;
-    width: 46vh;
-    padding: 10px;
-    font-size: 0.8rem;
-    color: white;
-    background-color: transparent;
-    border-radius: 15px;
-    margin-right: 3hv;
-  }
 
 
 .menu {
