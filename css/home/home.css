@@ -92,7 +92,7 @@
 @media screen and (max-width: 768px) {
     .navegation-buttons {
         width: 100%;
-        top: 20%;
+        top: 15%;
     }
 
     .navegation-buttons__button {
@@ -110,6 +110,7 @@
         justify-items: center;
         position: fixed;
         left: 0%;
+        top: 20%;
     }
 
     .navegation-buttons__button {

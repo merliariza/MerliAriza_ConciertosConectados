@@ -9,8 +9,8 @@
     font-family: "Inter", sans-serif;
     font-style: normal;
     color: #000000;
-    font-size: 4rem;
-    top: 5%;
+    font-size: 3.7rem;
+    top: 4%;
     position: fixed;
     left: 10%;
 
@@ -59,8 +59,8 @@
     font-family: "Inter", sans-serif;
     font-style: normal;
     color: #761CBC;
-    font-size: 4rem;
-    top: 12%;
+    font-size: 3.7rem;
+    top: 11%;
     left: 10%;
     position: absolute;
 
@@ -124,7 +124,7 @@
 @media screen and (max-width:768px){
     .titulohome3{
         font-size: 1.5rem;
-        top: 35%;
+        top: 30%;
         position: absolute;
         justify-content: center;
     }
@@ -133,7 +133,7 @@
 @media screen and (max-width:576px){
     .titulohome3{
         font-size: 0.875rem;
-        top: 40%;
+        top: 38%;
         left: 0%;
         position: absolute;
         justify-content: center;
@@ -173,7 +173,7 @@
 @media screen and (max-width:768px){
     .titulohome4{
         font-size: 1.2rem;
-        top: 35%;
+        top: 30%;
         position: absolute;
         justify-content: center;
     }
@@ -182,7 +182,7 @@
 @media screen and (max-width:576px){
     .titulohome4{
         font-size: 0.75rem;
-        top: 40%;
+        top: 38%;
         position: absolute;
         justify-content: center;
     }
@@ -230,7 +230,7 @@
 @media screen and (max-width:576px){
     .titulohome5{
         font-size: 0.875rem;
-        top: 70%;
+        top: 67%;
         left: 0%;
         position: absolute;
         justify-content: left;
@@ -279,7 +279,7 @@
 @media screen and (max-width:576px){
     .titulohome6{
         font-size: 0.75rem;
-        top: 70%;
+        top: 67%;
         position: absolute;
         justify-content: center;
     }

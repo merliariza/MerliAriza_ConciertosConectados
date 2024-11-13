@@ -1,0 +1,317 @@
+.titulo1 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;   
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 1.5rem;
+    top: 70%;
+    position: fixed;
+    left: 10%;
+
+}
+@media screen and (max-width:900px){
+    .titulo1{
+        font-size: 1.5rem;
+        top: 40%;
+        left: 15%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .titulo1{
+        font-size: 1.5rem;
+        top: 41%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .titulo1{
+        font-size: 1rem;
+        top: 50%;
+        left: 0%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .titulo1{
+        font-size: 0.75rem;
+        top: 20%px;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+.titulo2 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;   
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 1.5rem;
+    top: 70%;
+    position: fixed;
+    left: 40%;
+
+}
+@media screen and (max-width:900px){
+    .titulo2{
+        font-size: 1.5rem;
+        top: 60%;
+        left: 15%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .titulo2{
+        font-size: 1.5rem;
+        top: 60%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .titulo2{
+        font-size: 1rem;
+        top: 70%;
+        left: 0%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .titulo2{
+        font-size: 0.75rem;
+        top: 20%px;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+.titulo3 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;   
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 1rem;
+    top: 70%;
+    position: absolute;
+    left: 70%;
+
+}
+@media screen and (max-width:900px){
+    .titulo3{
+        font-size: 1rem;
+        top: 88%;
+        left: 20%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .titulo3{
+        font-size: 1rem;
+        top: 88%;
+        position: absolute;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .titulo3{
+        font-size: 0.75rem;
+        top: 89%;
+        left: 0%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .titulo3{
+        font-size: 0.75rem;
+        top: 20%px;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+.titulo4 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left;   
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 1.2rem;
+    top: 74%;
+    position: absolute;
+    left: 70%;
+
+}
+@media screen and (max-width:900px){
+    .titulo4{
+        font-size: 1rem;
+        top: 90%;
+        left: 20%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .titulo4{
+        font-size: 1.5rem;
+        top: 90%;
+        position: absolute;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .titulo4{
+        font-size: 1rem;
+        top: 92%;
+        left: 0%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .titulo4{
+        font-size: 0.75rem;
+        top: 20%px;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+.sub1 {
+    display: flex; 
+    justify-content: left;   
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 0.7rem;
+    top: 75%;
+    position: fixed;
+    left: 10%;
+    text-align: justify;
+    right: 65%;
+
+}
+@media screen and (max-width:900px){
+    .sub1{
+        font-size: 1rem;
+        top:43%;
+        left: 15%;
+        right: 15%;
+        position: fixed;
+        
+    }
+}
+
+@media screen and (max-width:768px){
+    .sub1{
+        font-size: 1rem;
+        top: 45%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .sub1{
+        font-size: 0.75rem;
+        top: 55%;
+        left: 0%;
+        right: 0%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .sub1{
+        font-size: 0.75rem;
+        top: 20%px;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+.sub1 {
+    display: flex; 
+    justify-content: left;   
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #000000;
+    font-size: 0.7rem;
+    top: 75%;
+    position: fixed;
+    left: 10%;
+    text-align: justify;
+    right: 65%;
+
+}
+@media screen and (max-width:900px){
+    .sub1{
+        font-size: 1rem;
+        top:43%;
+        left: 15%;
+        right: 15%;
+        position: fixed;
+        
+    }
+}
+
+@media screen and (max-width:768px){
+    .sub1{
+        font-size: 1rem;
+        top: 45%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .sub1{
+        font-size: 0.75rem;
+        top: 55%;
+        left: 0%;
+        right: 0%;
+        position: fixed;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .sub1{
+        font-size: 0.75rem;
+        top: 20%px;
+        position: fixed;
+        justify-content: center;
+    }
+}

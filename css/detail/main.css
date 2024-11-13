@@ -2,10 +2,10 @@
 
 :root {
   --ratio: 3.74;
-  --cta-color: rgb(0, 102, 254);
+  --cta-color: rgb(255, 255, 255);
   --light-color-bg: rgb(238, 241, 247);
-  --dark-color-bg: rgb(55, 65, 81);
-  --grey-color: rgb(107, 114, 128);
+  --dark-color-bg: rgb(252, 252, 252);
+  --grey-color: rgb(255, 255, 255);
   --leading: 0.025em;
 }
 
@@ -39,13 +39,16 @@ button {
   height: 44px;
   border-radius: calc(3px * var(--ratio));
   border: none;
-  letter-spacing: ccalc(3 * var(--leading, 0.025em));
+  letter-spacing: calc(3 * var(--leading));
   font-family: inherit;
   color: var(--grey-color);
   background-color: var(--light-color-bg);
   font-size: large;
   font-weight: 700;
-}
+  background-color: #761CBC;
+  left: 70%;
+  top: 85%;
+  position: fixed;}
 
 button:focus {
   outline: none;
@@ -69,7 +72,7 @@ button.cta:focus {
 dialog {
   border: none !important;
   border-radius: calc(5px * var(--ratio));
-  box-shadow: 0 0 #0000, 0 0 #0000, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 #bfbebe00, 0 0 #0000, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   padding: 1.6rem;
   max-width: 400px;
 }
@@ -107,4 +110,74 @@ p {
 
 .flex button {
   margin: 8px auto;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 900px) {
+  main {
+    padding: 1rem; /* Ajuste del padding en pantallas más pequeñas */
+  }
+
+  button {
+    width: calc(40px * var(--ratio));
+    top: 90%; /* Ajuste de tamaño para pantallas medianas */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    padding: 1rem; /* Reducir padding para dispositivos más pequeños */
+  }
+
+  button {
+    width: calc(36px * var(--ratio));
+    top:90% /* Ajuste de tamaño en pantallas pequeñas */
+  }
+
+  dialog {
+    padding: 1.2rem; /* Ajuste en el padding del dialog */
+    max-width: 90vw; /* Ajuste el tamaño máximo */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main {
+    width: 100%; /* Ajuste completo para pantallas pequeñas */
+    padding: 0 1rem; /* Reduce el espacio horizontal */
+  }
+
+  button {
+    width: calc(36px * var(--ratio));
+    top:92%;
+    left: 60% /* Tamaño más pequeño del botón */
+  }
+
+  dialog {
+    padding: 1rem;
+    max-width: 90%; /* Ajuste del tamaño máximo en pantallas más pequeñas */
+  }
+
+  .flex.flex-space-between {
+    flex-direction: column;
+    align-items: center; /* Ajusta los elementos al centro en pantallas muy pequeñas */
+    top:70%
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main {
+    width: 100%; /* Pantallas ultra pequeñas */
+    padding: 0.5rem;
+  }
+
+  button {
+    width: calc(30px * var(--ratio)); 
+    font-size: 0.9rem;/* Botón aún más pequeño */
+  }
+
+  dialog {
+    padding: 0.5rem;
+    max-width: 85%; /* Ajuste del tamaño máximo en pantallas de 320px */
+  }
 }

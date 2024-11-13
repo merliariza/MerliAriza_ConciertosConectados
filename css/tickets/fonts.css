@@ -231,7 +231,7 @@
 }
 @media screen and (max-width:900px){
     .tituloticket1{
-        top: 10%;
+        top: 33%;
         left: 10%;
     }
 }
@@ -252,8 +252,9 @@
 
 @media screen and (max-width:320px){
     .tituloticket1{
-        top: 10%;
-        left: 10%;
+        top: 30%;
+        left: 0%;
+        font-size: 0.8rem;
     }
 }
 
@@ -289,7 +290,8 @@
 @media screen and (max-width:320px){
     .tituloticket2{
         top: 37%;
-        left: 4%;
+        left: -4%;
+        font-size: 0.7rem;
     }
 }
 
@@ -354,8 +356,9 @@
     
     @media screen and (max-width:320px){
         .tituloticket4{
-            top: 47%;
+            top: 50%;
             left: 4%;
+            font-size: small;
         }
     }
 
@@ -388,7 +391,7 @@
     @media screen and (max-width:320px){
         .tituloticket5{
             top: 45%;
-            left: 57%;
+            left: 52%;
         }
     }
 
@@ -420,8 +423,9 @@
     
     @media screen and (max-width:320px){
         .tituloticket6{
-            top: 47%;
-            left: 57%;
+            top: 50%;
+            left: 52%;
+            font-size: small;
         }
     }
 
@@ -486,8 +490,9 @@
     
     @media screen and (max-width:320px){
         .tituloticket8{
-            top: 57%;
+            top: 60%;
             left: 4%;
+            font-size: small;
         }
     }
 
@@ -520,7 +525,7 @@
     @media screen and (max-width:320px){
         .tituloticket9{
             top: 55%;
-            left: 57%;
+            left: 52%;
         }
     }
 
@@ -552,8 +557,9 @@
     
     @media screen and (max-width:320px){
         .tituloticket10{
-            top: 57%;
-            left: 57%;
+            top: 60%;
+            left: 52%;
+            font-size: small;
         }
     }
 
@@ -585,7 +591,7 @@
     
     @media screen and (max-width:320px){
         .tituloticket11{
-            top: 65%;
+            top: 63%;
             left: 4%;
         }
     }
@@ -618,8 +624,9 @@
     
     @media screen and (max-width:320px){
         .tituloticket12{
-            top: 67%;
+            top: 68%;
             left: 4%;
+            font-size: small;
         }
     }
 
@@ -651,8 +658,8 @@
     
     @media screen and (max-width:320px){
         .tituloticket13{
-            top: 65%;
-            left: 57%;
+            top: 63%;
+            left: 52%;
         }
     }
 
@@ -684,7 +691,39 @@
     
     @media screen and (max-width:320px){
         .tituloticket14{
-            top: 67%;
-            left: 57%;
+            top: 68%;
+            left: 52%;
+            font-size: small;
+        }
+    }
+
+    .tituloticket15 {
+        top: 92%;
+        z-index: 1;
+    
+    }
+    @media screen and (max-width:900px){
+        .tituloticket15{
+            top: 92%;
+        }
+    }
+    
+    @media screen and (max-width:768px){
+        .tituloticket15{
+            top: 92%;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .tituloticket15{
+            top: 91%;
+            z-index: 1;
+        }
+    }
+    
+    @media screen and (max-width:320px){
+        .tituloticket15{
+            top: 92%;
+            font-size: 0.8rem;
         }
     }

@@ -125,7 +125,7 @@ img {
         height: 400px;
     }
 }
-
+/*Icono de la página de Instagram*/
 .insta{
     display: inline-block;
     position: relative;
@@ -183,7 +183,7 @@ img {
     justify-content: center;
 
 }
-
+/*Imagen de fondo esquina superior izquierda*/
 .containerornament {
     position: relative; 
     width: 500px; 
@@ -229,7 +229,7 @@ img {
     }
 }
 
-
+/*Imagen de fondo para titulo Evento*/
 .clip {
     display: flex;
     align-items: center;
