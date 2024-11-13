@@ -12,6 +12,6 @@ El usuario puede hacer clic en el botón "Buy Ticket" que aparece en la página 
 
 Todo el diseño y la estructura de la plataforma están pensados para asegurar una navegación fácil y sin obstáculos. Desde el momento en que el usuario accede a la página de inicio hasta que obtiene su boleto, el proceso está cuidadosamente orquestado para ofrecer una experiencia fluida y agradable. Cada paso está orientado a ser lo más claro y directo posible, minimizando la cantidad de clics necesarios para que los usuarios puedan realizar la compra sin dificultades.
 
-Además, la plataforma está completamente responsiva, lo que significa que se adapta perfectamente a cualquier dispositivo, ya sea un smartphone, una tablet o una computadora de escritorio. Para poderusuarios puedan acceder a los eventos y comprar sus tickets, sin importar el dispositivo que utilicen.
+La plataforma está completamente responsiva, por lo que se adapta perfectamente a cualquier dispositivo, ya sea un smartphone, una tablet o una computadora de escritorio. Para acceder a los eventos y comprar sus tickets, sin importar el dispositivo que utilicen.
 
-El objetivo principal de este proyecto es proporcionar a los usuarios una experiencia agradable y libre de estrés al comprar entradas para sus conciertos y eventos favoritos. Desde la selección del evento hasta la compra de boletos, todo el proceso está optimizado para ser sencillo, rápido y accesible. Al hacer que la compra de entradas sea más fácil y menos intimidante, buscamos mejorar la forma en que las personas descubren y participan en eventos musicales, creando una comunidad más conectada y entusiasta.
+Deploy site: https://eventoconcierto.netlify.app/
