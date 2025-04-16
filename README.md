@@ -1,6 +1,6 @@
 # MerliAriza_ConciertosConectados
 Página responsive cuyo objetivo es brindar un acceso intuitivo a usuarios que deseen comprar tickets para conciertos y eventos musicales:
-https://eventoconcierto.netlify.app/
+https://merliariza.github.io/MerliAriza_ConciertosConectados/
 
 La experiencia de usuario comienza con una página de bienvenida o cover, el cual está pensado para facilitar al usuario puede acceder a la página principal, Home, mediante un botón que lo llevará a la página de inicio o Home.
 
